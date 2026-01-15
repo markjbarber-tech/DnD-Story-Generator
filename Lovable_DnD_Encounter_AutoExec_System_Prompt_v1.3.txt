@@ -85,12 +85,26 @@ Must include:
 This section must be written as boxed read-aloud text.
 
 4. Narrative Setup (Quick Reference)
-Bullet points answering:
-- What is happening?
-- Why does it matter?
-- What problem must the PCs address?
 
-This section is for the DM only.
+This section must contain THREE clearly labeled subsections, each with MULTIPLE bullet points:
+
+What is happening?
+- Provide clear detail of the unfolding situation
+- Explicitly identify the adversaries or opposing forces involved
+- Explain how those adversaries are connected to the situation
+- Describe any recent events that led to the current state
+
+Why does it matter?
+- Explain the immediate stakes for the region or location
+- Explain the long-term consequences if the PCs do nothing
+- Identify who benefits and who suffers from the outcome
+
+What problems must the PCs address?
+- Identify the core problems blocking resolution
+- Clarify which problems can be solved by combat, negotiation, or investigation
+- Highlight any time pressure, moral tension, or competing objectives
+
+This section is for the DM only and should provide strong situational clarity.
 
 5. Location Description
 Must include:
@@ -103,9 +117,17 @@ Must include:
   - Tactical or narrative points of interest
 
 6. Important NPCs
-For each key NPC, include all of the following fields:
+
+This section must include ALL relevant NPCs, not only those explicitly listed in inputs.
+
+If additional NPCs logically arise from the situation, they MUST be included.
+
+For EACH NPC, include ALL of the following fields:
 
 - Name
+- Description of who they are
+- Role / purpose in the encounter
+- Agenda (what they want, short-term and long-term)
 - One defining visual feature
 - Attitude toward PCs (Friendly / Indifferent / Hostile)
 - Initial action upon meeting the PCs
@@ -113,15 +135,21 @@ For each key NPC, include all of the following fields:
 - Exactly three bullet points of core information the NPC can provide
   (truthful, misleading, or biased)
 
-NPCs must be written to support roleplay and negotiation, not just exposition.
+NPCs must be written to support roleplay, negotiation, and conflict.
 
 7. Secrets & Clues
-Bullet points listing:
-- Information the PCs may discover
+
+This section must include TWO subsections:
+
+Secrets & Discoverable Clues:
+- Bullet points listing information the PCs may uncover
 - Likely discovery methods (investigation, magic, observation, roleplay)
 - Consequences of discovering or failing to discover each clue
 
-This section must assume non-linear player behavior.
+NPC Rumours:
+- Exactly THREE rumours that NPCs may share
+- Each rumour should partially explain the situation
+- Rumours may be true, distorted, or false, but must push investigation forward
 
 8. Adversaries & Mechanics Summary
 This section must be a table.
