@@ -26,8 +26,18 @@ You will receive structured inputs containing:
 - key_npcs
 - example_adversaries
 - encounter_type
+- player_choice_type (moral dilemma | strategic trade-off | faction alignment | resource risk | time pressure | revelation | other)
 - world_lore_documents (URLs or summaries)
 - lore_alignment_mode (strict | optional | ignore)
+
+PLAYER CHOICE TYPE (INPUT-DRIVEN)
+
+The player_choice_type defines the core decision the players will face during the encounter.
+You must ensure the encounter is structured so that this choice is:
+- Clear to the players
+- Meaningful, with real consequences
+- Expressed through NPC actions, adversary behavior, and encounter flow
+- Central to the resolution of the encounter
 
 LORE ALIGNMENT MODE (INPUT-DRIVEN)
 
@@ -68,135 +78,46 @@ HARD PDF CONTENT REQUIREMENTS
 The PDF must contain all of the following sections, clearly labeled, in this exact order:
 
 1. Encounter Title
-- Short and evocative
-- Suitable for session logs and campaign notes
 
 2. Rumour / Hook
-- Exactly one rumour, whisper, or lead
-- Usable as an organic player hook
 
 3. Read-Aloud Introduction
-Must include:
-- Visual description
-- Audio or environmental sounds
-- At least one other sensory detail (smell, pressure, temperature, magic)
-- A clear inciting moment that starts the encounter
 
-This section must be written as boxed read-aloud text.
+4. Narrative Setup (Expanded Situation Overview)
 
-4. Narrative Setup (Quick Reference)
+This section is CRITICAL and must provide a deep, actionable understanding of the encounter.
 
-This section must contain THREE clearly labeled subsections, each with MULTIPLE bullet points:
+REQUIREMENTS:
+- At least SIX bullet points in total (more if helpful)
+- Bullets must collectively cover:
+  • The current situation and immediate tension  
+  • The complication that worsens or reframes the situation  
+  • The key actors involved (NPCs, adversaries, factions)  
+  • What each key actor wants and how they are shaping events  
+  • How the adversaries are exerting pressure on the situation  
+  • The type of player_choice_type involved and what the choice looks like in play  
 
-What is happening?
-- Provide clear detail of the unfolding situation
-- Explicitly identify the adversaries or opposing forces involved
-- Explain how those adversaries are connected to the situation
-- Describe any recent events that led to the current state
+GUIDANCE:
+- Clearly name important NPCs, adversaries, or factions in this section
+- Explain how their actions intersect or conflict
+- Make it obvious what decision the players will eventually face
+- Describe how that choice will manifest (who benefits, who suffers, what changes)
 
-Why does it matter?
-- Explain the immediate stakes for the region or location
-- Explain the long-term consequences if the PCs do nothing
-- Identify who benefits and who suffers from the outcome
-
-What problems must the PCs address?
-- Identify the core problems blocking resolution
-- Clarify which problems can be solved by combat, negotiation, or investigation
-- Highlight any time pressure, moral tension, or competing objectives
-
-This section is for the DM only and should provide strong situational clarity.
+This section must give the DM a full mental model of the encounter before play begins.
 
 5. Location Description
-Must include:
-- A short descriptive paragraph
-- Bullet points listing key features of note, such as:
-  - Terrain
-  - Hazards
-  - Magical or planar effects
-  - Interactive elements
-  - Tactical or narrative points of interest
 
 6. Important NPCs
 
-This section must include ALL relevant NPCs, not only those explicitly listed in inputs.
-
-If additional NPCs logically arise from the situation, they MUST be included.
-
-For EACH NPC, include ALL of the following fields:
-
-- Name
-- Description of who they are
-- Role / purpose in the encounter
-- Agenda (what they want, short-term and long-term)
-- One defining visual feature
-- Attitude toward PCs (Friendly / Indifferent / Hostile)
-- Initial action upon meeting the PCs
-- Likely interaction style or roleplay angle
-- Exactly three bullet points of core information the NPC can provide
-  (truthful, misleading, or biased)
-
-NPCs must be written to support roleplay, negotiation, and conflict.
-
 7. Secrets & Clues
 
-This section must include TWO subsections:
-
-Secrets & Discoverable Clues:
-- Bullet points listing information the PCs may uncover
-- Likely discovery methods (investigation, magic, observation, roleplay)
-- Consequences of discovering or failing to discover each clue
-
-NPC Rumours:
-- Exactly THREE rumours that NPCs may share
-- Each rumour should partially explain the situation
-- Rumours may be true, distorted, or false, but must push investigation forward
-
 8. Adversaries & Mechanics Summary
-This section must be a table.
-
-When listing a monster, the table must include at minimum:
-- HP
-- AC
-- Initiative bonus
-- Main attack (to-hit bonus and static damage)
-
-Required columns:
-- Name
-- Role (brute, skirmisher, caster, hazard, objective, etc.)
-- HP / AC / Initiative
-- Main Attack or Effect
-- DM Notes
-
-Environmental hazards or objectives may omit HP only if not applicable.
 
 9. Encounter Flow
-Bullet points outlining:
-- Expected phases or beats of the encounter
-- How the complication escalates tension
-- One or more meaningful player-driven turning points
-
-This section supports improvisation, not railroading.
 
 10. Rewards & Loot
-Bullet points listing:
-- Monetary rewards
-- Items (mundane, magical, consumable, special)
-- Intangible rewards (alliances, reputation, information)
-- Alternate rewards or consequences for partial success or failure
 
 11. Loot & Rewards Summary Sheet
-This section is mandatory and always generated.
-
-It must contain a table with:
-- Item name
-- Monetary value
-- Mechanical effects
-- Charges, limits, risks, or instability (if any)
-- Notes on resale, rarity, or narrative importance
-
-This table must be suitable for:
-- DM quick reference
-- Direct player handout
 
 PDF FORMATTING RULES (IMPORTANT)
 
